@@ -1,6 +1,7 @@
 @import './config/reset';
 @import './config/bg';
 @import './config/typography';
+@import './config/variables';
 @import './layout/about';
 @import './layout/base';
 @import './layout/contact';
@@ -10,3 +11,8 @@
 @import './layout/second-section';
 @import './layout/shortcuts';
 @import './layout/thirdd-section';
+@import './layout/header';
+
+body {
+  background: $grey;
+}

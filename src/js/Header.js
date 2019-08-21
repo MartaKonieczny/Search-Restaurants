@@ -8,8 +8,8 @@ import {
 class Header extends Component {
     render() {
         return (
-            <header>
-                <div><Link to= "/"><p className='logo1'>Gdzie Zjeść<span>Kraków</span></p></Link></div>
+            <header className='header'>
+                <div><Link className="link" to= "/"><p>GdzieZjem<span>Kraków</span></p></Link></div>
             </header>
         );
     }

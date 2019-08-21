@@ -7,14 +7,46 @@ import {
 class SecondSection extends Component {
     render() {
         return (
-            <section>
-                <p>Na skróty</p>
-                <div><Link to= "/legend">Miejskie legendy</Link></div>
-                <div><Link to= "/italy">Zasmakuj we Włoszech</Link></div>
-                <div><Link to= "/breakfast">Na dobry początek dnia</Link></div>
-                <div><Link to= "/desserts">Coś słodkiego</Link></div>
-                <div><Link to= "/vegan">Vegan</Link></div>
-                <div><Link to= "/cheap">Na każdą kieszeń</Link></div>
+            <section className="second">
+                <p>Na skróty:</p>
+                <div className="shorts">
+                    <article>
+                        <div className="short-wrapper">
+                            <div className="short-img"></div>
+                            <div className="short-info"><Link to= "/legend">Miejskie legendy</Link><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima.</p></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="short-wrapper">
+                            <div className="short-img"></div>
+                            <div className="short-info"><Link to= "/italy">Zasmakuj we Włoszech</Link><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima.</p></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="short-wrapper">
+                            <div className="short-img"></div>
+                            <div className="short-info"><Link to= "/breakfast">Na dobry początek dnia</Link><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima.</p></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="short-wrapper">
+                            <div className="short-img"></div>
+                            <div className="short-info"><Link to= "/desserts">Coś słodkiego</Link><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima.</p></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="short-wrapper">
+                            <div className="short-img"></div>
+                            <div className="short-info"><Link to= "/vegan">Vegan</Link><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima.</p></div>
+                        </div>
+                    </article>
+                    <article>
+                        <div className="short-wrapper">
+                            <div className="short-img"></div>
+                            <div className="short-info"><Link to= "/cheap">Na każdą kieszeń</Link><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, minima.</p></div>
+                        </div>
+                    </article>
+                </div>
             </section>
         );
     }

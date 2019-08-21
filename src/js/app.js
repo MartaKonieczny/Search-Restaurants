@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom"
 
-// import './../sass/style.scss'; // adres do głównego pliku SASS
+import './../sass/style.scss'; // adres do głównego pliku SASS
 import Home from './home.js';
 import Search from './Search.js';
 import UrbanLegends from './UrbanLegends.js';

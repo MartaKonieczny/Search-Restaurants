@@ -1,0 +1,40 @@
+.third {
+  height: 430px;
+
+  .background-slide1 {
+    background-image: url("../images/background-chillies-color-1435895.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: flex-end;
+    background-size: cover;
+    width: 90%;
+    height: 200px;
+
+    p {
+      background-color: rgba(255, 255, 255, .7);
+      color: white;
+      height: 50px;
+      padding-top: 12px;
+      text-align: right;
+      padding-right: 40px;
+    }
+  }
+
+  .background-slide2 {
+    background-image: url("../images/background-chillies-color-1435895.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    width: 90%;
+    height: 200px;
+
+    p {
+      background-color: rgba(255, 255, 255, .7);
+      color: white;
+      height: 50px;
+      padding-top: 12px;
+      text-align: right;
+      padding-right: 40px;
+    }
+  }
+}

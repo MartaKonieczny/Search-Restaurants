@@ -1,3 +1,18 @@
-.logo1{
-  color: red;
+.header{
+  .link{
+    text-decoration: none;
+  }
+  padding-top: 20px;
+  background-color: $yellow;
+  height: 60px;
+  p{
+    color: $olive;
+    font-size: 2.2rem;
+    font-family: 'Orbitron', sans-serif;
+
+  }
+  span{
+    font-size: 1.5rem;
+    color: $black;
+  }
 }

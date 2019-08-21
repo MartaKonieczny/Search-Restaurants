@@ -8,10 +8,11 @@ import {
 class FirstSection extends Component {
     render() {
         return (
-            <section>
-                <div>Zdjęcie jako tło</div>
-                <div>Znajdź najlepsze miejsca kulinarne w Krakowie</div>
-                <p><Link to= "/search">Przejdź do wyszukiwarki</Link></p>
+            <section className="first">
+                <div className="img">
+                    <p>Znajdź najlepsze miejsca kulinarne w Krakowie</p>
+                    <button><Link className="first" to= "/search">Przejdź do wyszukiwarki</Link></button>
+                </div>
             </section>
         );
     }
