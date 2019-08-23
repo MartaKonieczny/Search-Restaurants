@@ -3,7 +3,7 @@ import ReactDOM from "react-dom"
 
 import './../sass/style.scss'; // adres do głównego pliku SASS
 import Home from './home.js';
-import Search from './Search.js';
+import Searcher from './Searcher.js';
 import UrbanLegends from './UrbanLegends.js';
 import Breakfasts from './Breakfasts.js';
 import Italy from './Italy.js';
@@ -31,7 +31,7 @@ class App extends Component {
                 <HashRouter>
                     <Switch>
                         <Route exact path='/' component={Home} />
-                        <Route path='/search' component={Search} />
+                        <Route path='/search' component={Searcher} />
                         <Route path='/legend' component={UrbanLegends} />
                         <Route path='/italy' component={Italy} />
                         <Route path='/breakfast' component={Breakfasts} />

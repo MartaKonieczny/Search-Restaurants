@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 
-
-// import './../sass/style.scss'; // adres do głównego pliku SASS
 import Header from './Header.js';
 import FirstSection from './FirstSection.js';
 import SecondSection from './SecondSection.js';

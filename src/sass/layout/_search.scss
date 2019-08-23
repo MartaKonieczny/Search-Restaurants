@@ -1,0 +1,70 @@
+.display{
+  display: flex;
+  margin: 10px 0;
+  font-family: 'Lato', sans-serif;
+
+  .filters{
+    width: 200px;
+    padding-left: 10px;
+  }
+
+  .results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1.7rem;
+    span{
+      font-weight: bold;
+    }
+    h4{
+      text-align: right;
+      font-size: 1.5rem;
+      line-height: 1.7rem;
+      color: $olive;
+    }
+    h1{
+      font-size: 1.6rem;
+      line-height: 2.2rem;
+    }
+    h2{
+      font-size: 1.3rem;
+      line-height: 2.2rem;
+    }
+    h3{
+      font-size: 1.1rem;
+    }
+  }
+
+  .result{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .result-element{
+    background-color: $yellow;
+    border-radius: 10px;
+    box-shadow: 0 2px 0 0 rgba($yellow, 0.5);
+    height: 650px;
+    width: 465px;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  .result-img {
+    //background-image: url("../images/background-chillies-color-1435895.jpg");
+    background-repeat: no-repeat;
+    align-items: center;
+    background-size: cover;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  fieldset{
+    margin: 10px 0;
+
+  }
+  legend{
+    font-weight: bold;
+  }
+}
