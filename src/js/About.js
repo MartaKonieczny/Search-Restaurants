@@ -11,7 +11,7 @@ class About extends Component {
                 <Header/>
                 <section>
                     <div>
-                        <p>O nas</p>
+                        <div className="w-budowie"></div>
                     </div>
                 </section>
                 <Footer/>

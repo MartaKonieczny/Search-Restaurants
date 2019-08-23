@@ -1,5 +1,5 @@
 import React, {Component} from  'react';
-import Results from "./Results";
+
 //this.props.nazwapropsa  this.props.kitchen
 
 class Filter extends Component {
@@ -29,15 +29,15 @@ class Filter extends Component {
 
     render() {
         return (
-            <div>
+            <div className="width">
                 {/*<div>*/}
                 {/*    <input placeholder="Znajdź co chcesz"/>*/}
                 {/*    <button>Szukaj</button>*/}
                 {/*</div>*/}
-                <div className="display">
-                    <div className="filters">
+                <div className="width">
+                    <div className="filters width">
                         <p>FILTRY</p>
-                        <div>
+                        <div className="width">
                             <form>
                                 <fieldset>
                                     <legend>Sortuj po:</legend>
@@ -45,10 +45,10 @@ class Filter extends Component {
                                     {/*    <input type="radio" value="raiting" name="sort"/>*/}
                                     {/*</label><br/>*/}
                                     <label>
-                                        <input onChange={this.handleSortPrice} type="radio" value="price-to-min" name="sort"/>Cena - malejąco
+                                        <input onChange={this.handleSortPrice} type="checkbox" value="price-to-min" name="sort"/><span>Cena - malejąco</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleSortPrice} type="radio" value="price-to-max" name="sort"/>Cena - rosnąco
+                                        <input onChange={this.handleSortPrice} type="checkbox" value="price-to-max" name="sort"/><span>Cena - rosnąco</span>
                                     </label>
                                 </fieldset>
                             </form>
@@ -58,22 +58,22 @@ class Filter extends Component {
                                     <fieldset>
                                         <legend>Lokalizacja:</legend>
                                         <label>
-                                            <input onChange={this.handleChangeLocation} type="radio" value="Dębniki" name="location"/>Dębniki
+                                            <input onChange={this.handleChangeLocation} type="checkbox" value="Dębniki" name="location"/><span>Dębniki</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeLocation} type="radio" value="Grzegórzki" name="location"/>Grzegórzki
+                                            <input onChange={this.handleChangeLocation} type="checkbox" value="Grzegórzki" name="location"/><span>Grzegórzki</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeLocation} type="radio" value="Kazimierz" name="location"/>Kazimierz
+                                            <input onChange={this.handleChangeLocation} type="checkbox" value="Kazimierz" name="location"/><span>Kazimierz</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeKLocation} type="radio" value="Kleparz" name="location"/>Kleparz
+                                            <input onChange={this.handleChangeKLocation} type="checkbox" value="Kleparz" name="location"/><span>Kleparz</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeLocation} type="radio" value="Podgórze" name="location"/>Podgórze
+                                            <input onChange={this.handleChangeLocation} type="checkbox" value="Podgórze" name="location"/><span>Podgórze</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeLocation} type="radio" value="Stare Miasto" name="location"/>Stare Miasto
+                                            <input onChange={this.handleChangeLocation} type="checkbox" value="Stare Miasto" name="location"/><span>Stare Miasto</span>
                                         </label><br/>
                                     </fieldset>
                                 </form>
@@ -83,88 +83,88 @@ class Filter extends Component {
                                 <fieldset>
                                     <legend>Rodzaj Kuchni:</legend>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Azjatycka" name="kitchen"/>Azjatycka
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Azjatycka" name="kitchen"/><span>Azjatycka</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Burgery" name="kitchen"/>Burgery
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Burgery" name="kitchen"/><span>Burgery</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Drinki" name="kitchen"/>Drinki
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Drinki" name="kitchen"/><span>Drinki</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Europejska" name="kitchen"/>Europejska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Europejska" name="kitchen"/><span>Europejska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Fast Food" name="kitchen"/>Fast Food
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Fast Food" name="kitchen"/><span>Fast Food</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Francuska" name="kitchen"/>Francuska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Francuska" name="kitchen"/><span>Francuska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Gruzińska" name="kitchen"/>Gruzińska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Gruzińska" name="kitchen"/><span>Gruzińska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Indyjska" name="kitchen"/>Indyjska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Indyjska" name="kitchen"/><span>Indyjska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Japońska" name="kitchen"/>Japońska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Japońska" name="kitchen"/><span>Japońska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Kawiarnia" name="kitchen"/>Kawiarnia
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Kawiarnia" name="kitchen"/><span>Kawiarnia</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Koreańska" name="kitchen"/>Koreańska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Koreańska" name="kitchen"/><span>Koreańska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Lodziarnia" name="kitchen"/>Lodziarnia
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Lodziarnia" name="kitchen"/><span>Lodziarnia</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Meksykańska" name="kitchen"/>Meksykańska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Meksykańska" name="kitchen"/><span>Meksykańska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Międzynarodowa" name="kitchen"/>Międzynarodowa
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Międzynarodowa" name="kitchen"/><span>Międzynarodowa</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Pizza" name="kitchen"/>Pizza
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Pizza" name="kitchen"/><span>Pizza</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Polska" name="kitchen"/>Polska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Polska" name="kitchen"/><span>Polska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Przekąski" name="kitchen"/>Przekąski
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Przekąski" name="kitchen"/><span>Przekąski</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Ryby i owoce morza" name="kitchen"/>Ryby i owoce morza
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Ryby i owoce morza" name="kitchen"/><span>Ryby i owoce morza</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Steak" name="kitchen"/>Steak
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Steak" name="kitchen"/><span>Steak</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Sushi" name="kitchen"/>Sushi
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Sushi" name="kitchen"/><span>Sushi</span>
                                     </label><br/>
                                     <label>
-                                    <input onChange={this.handleChangeKitchen} type="radio" value="Śródziemnomorska" name="kitchen"/>Śródziemnomorska
+                                    <input onChange={this.handleChangeKitchen} type="checkbox" value="Śródziemnomorska" name="kitchen"/><span>Śródziemnomorska</span>
                                      </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Tajska" name="kitchen"/>Tajska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Tajska" name="kitchen"/><span>Tajska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Wegańska" name="kitchen"/>Wegańska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Wegańska" name="kitchen"/><span>Wegańska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Wegetariańska" name="kitchen"/>Wegetariańska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Wegetariańska" name="kitchen"/><span>Wegetariańska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Węgierska" name="kitchen"/>Węierska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Węgierska" name="kitchen"/><span>Węierska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Wietnamska" name="kitchen"/>Wietnamska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Wietnamska" name="kitchen"/><span>Wietnamska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Włoska" name="kitchen"/>Włoska
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Włoska" name="kitchen"/><span>Włoska</span>
                                     </label><br/>
                                     <label>
-                                        <input onChange={this.handleChangeKitchen} type="radio" value="Zdrowe jedzenie" name="kitchen"/>Zdrowe jedzenie
+                                        <input onChange={this.handleChangeKitchen} type="checkbox" value="Zdrowe jedzenie" name="kitchen"/><span>Zdrowe jedzenie</span>
                                     </label><br/>
 
 
@@ -177,25 +177,25 @@ class Filter extends Component {
                                     <fieldset>
                                         <legend>Rodzaj Miejsca:</legend>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="BAR" name="place"/>Bar
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="BAR" name="place"/><span>Bar</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="CUKIERNIA" name="place"/>Cukiernia
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="CUKIERNIA" name="place"/><span>Cukiernia</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="EKSKLUZYWNA RESTAURACJA" name="place"/>Ekskluzywna restauracja
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="EKSKLUZYWNA RESTAURACJA" name="place"/><span>Ekskluzywna restauracja</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="KAWIARNIA" name="place"/>Kawiarnia
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="KAWIARNIA" name="place"/><span>Kawiarnia</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="PUB" name="place"/>PUB
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="PUB" name="place"/><span>PUB</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="RESTAURACJA" name="place"/>Restauracja
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="RESTAURACJA" name="place"/><span>Restauracja</span>
                                         </label><br/>
                                         <label>
-                                            <input onChange={this.handleChangeCategory} type="radio" value="SZYBKIE JEDZENIE" name="place"/>Szybkie jedzenie
+                                            <input onChange={this.handleChangeCategory} type="checkbox" value="SZYBKIE JEDZENIE" name="place"/><span>Szybkie jedzenie</span>
                                         </label>
                                     </fieldset>
                                 </form>

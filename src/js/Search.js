@@ -53,7 +53,7 @@
 //                 <div className="display">
 //                     <div className="filters">
 //                         <p>FILTRY</p>
-//                         <div>
+//                         {/*<div>*/}
 //                             <form>
 //                                 <fieldset>
 //                                     <legend>Sortuj po:</legend>

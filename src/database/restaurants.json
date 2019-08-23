@@ -9,7 +9,7 @@
       "hours": "12:00 do 22:00 (Pon-Śr),12:00 do 23:00 (Sb-Nd)",
       "name": "Ed Red",
       "address": "Sławkowska 3, Stare Miasto, Kraków 31-014",
-      "img": "../images/",
+      "img": "../images/adult-barbecue-barbeque-1670561.jpg",
       "extras":"Legenda",
       "description": ""
     },
@@ -22,7 +22,7 @@
       "hours": "09:00 do 24:00 (Pon-Nd)",
       "name": "Camelot",
       "address": "Św. Tomasza 17, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/adult-burger-cheese-1251196.jpg",
       "extras":"Legenda, Desery"
     },
     {
@@ -34,7 +34,7 @@
       "hours": "11:00 do 23:00 (Pon-Nd)",
       "name": "Boscaiola",
       "address": "Szewska 10, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/adults-chef-cook-2696064.jpg",
       "extras":"Desery"
     },
     {
@@ -46,7 +46,7 @@
       "hours": "08:00 do 23:00 (Pon-Pt),09:00 do 23:00 (Sb-Nd)",
       "name": "Dynia Resto Bar",
       "address": "Krupnicza 20, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/alcohol-architecture-bar-260922.jpg",
       "extras":"Śniadania"
     },
     {
@@ -58,7 +58,7 @@
       "hours": "11:00 do 23:00 (Pon-Sb),12:00 do 21:00 (Nd)",
       "name": "Moa Burger",
       "address": "Mikołajska 3, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/almonds-berries-bread-knife-2113556.jpg"
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "hours": "14:00 do 24:00 (Pon-Czw),14:00 do 01:00 (Pt),12:00 do 24:00 (Sb-Nd)",
       "name": "Stara Zajezdnia",
       "address": "Św. Wawrzyńca 12, Kazimierz, Kraków",
-      "img": "../images/"
+      "img": "../images/appetizer-bowl-chili-286283.jpg"
     },
     {
       "id": 7,
@@ -80,7 +80,7 @@
       "hours": "12:00 do 23:00 (Pon-Czw),12:00 do 24:00 (Pt-Nd)",
       "name": "Pino",
       "address": "Szczepańska 4, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/architecture-ceiling-chairs-262047.jpg"
     },
     {
       "id": 8,
@@ -91,7 +91,7 @@
       "hours": "12:00 do 22:00 (Pon-Nd)",
       "name": "Pod Norenami",
       "address": "Krupnicza 6, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/asia-carrot-chopsticks-357756.jpg"
     },
     {
       "id": 9,
@@ -102,7 +102,7 @@
       "hours": "07:00 do 21:00 (Pon-Pt),08:00 do 19:00 (Sb-Nd)",
       "name": "Wesoła Cafe",
       "address": "Rakowicka 17/2, Grzegórzki, Kraków",
-      "img": "../images/"
+      "img": "../images/asparagus-barbecue-bbq-675951.jpg"
     },
     {
       "id": 10,
@@ -113,7 +113,7 @@
       "hours": "17:00 do 23:00 (Pon),12:00 do 23:00 (Wt-Czw),12:00 do 24:00 (Pt-So),12:00 do 22:00 (Nd)",
       "name": "Zakładka Food and Wine",
       "address": "Józefińska 2, Podgórze, Kraków",
-      "img": "../images/"
+      "img": "../images/avocado-close-up-cooking-2122280.jpg"
     },
     {
       "id": 11,
@@ -124,7 +124,7 @@
       "hours": "12:00 do 23:00 (Pon-Nd)",
       "name": "Mamma Mia",
       "address": "Karmelicka 14, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/blur-chef-cooking-2403392.jpg"
     },
     {
       "id": 12,
@@ -135,7 +135,7 @@
       "hours": "10:00 do 02:00 (Pon-Nd)",
       "name": "Forum Przestrzenie",
       "address": "Konopnickiej 28, Dębniki, Kraków",
-      "img": "../images/"
+      "img": "../images/baking-cheese-crust-315755.jpg"
     },
     {
       "id": 13,
@@ -146,7 +146,7 @@
       "hours": "10:00 do 21:00 (Pon-Nd)",
       "name": "Kuchnia u Doroty",
       "address": "Augustiańska 4, Kazimierz, Kraków",
-      "img": "../images/",
+      "img": "../images/barbecue-beef-cuisine-1251208.jpg",
       "extras":"Tanio"
     },
     {
@@ -158,7 +158,7 @@
       "hours": "12:00 do 24:00 (Pon-Nd)",
       "name": "Morskie Oko",
       "address": "Pl. Szczepański 8, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/basil-cook-cuisine-691114.jpg",
       "extras":"Legenda"
     },
     {
@@ -170,7 +170,7 @@
       "hours": "08:00 do 23:00 (Pon, Wt, Śr, Nd), 08:00 do 24:00 (Czw), 08:00 do 01:30 (Pt-Nd)",
       "name": "Kolanko No 6",
       "address": "Józefa 17, Kazimierz, Kraków",
-      "img": "../images/",
+      "img": "../images/basil-dinner-food-64208.jpg",
       "extras":"Śniadania, Tanio"
     },
     {
@@ -182,7 +182,7 @@
       "hours": "12:00 do 24:00 (Pon, Wt, Śr, Czw, Nd), 12:00 do 01:00 (Pt-So)",
       "name": "C.K. Browar",
       "address": "Podwale 6/7, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/beef-bowl-cuisine-262897.jpg",
       "extras":"Legenda"
     },
     {
@@ -194,7 +194,7 @@
       "hours": "08:00 do 24:00 (Pon-Pt),09:00 do 24:00 (Sb),09:00 do 23:00 (Nd)",
       "name": "Sukiennice",
       "address": "Rynek Główny 3, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/beef-cooking-cuisine-2181151.jpg"
     },
     {
       "id": 18,
@@ -205,7 +205,7 @@
       "hours": "12:00 do 22:00 (Pon, Wt, Śr, Czw, Nd), 12:00 do 23:00 (Pt-So)",
       "name": "Edo Fusion",
       "address": "Miodowa 8, Kazimierz, Krakow",
-      "img": "../images/",
+      "img": "../images/beef-cooking-cuisine-2313686.jpg",
       "extras":"Desery"
 
     },
@@ -218,7 +218,7 @@
       "hours": "Zamknięte (Pon),16:00 do 22:00 (Wt-Czw),16:00 do 23:00 (Pt), 13:00 do 23:00 (So), 13:00 do 22:00 (Nd)",
       "name": "Nolio",
       "address": "Krakowska 27, Kazimierz, Kraków 31-062",
-      "img": "../images/"
+      "img": "../images/berries-blueberries-breakfast-2732663.jpg"
     },
     {
       "id": 20,
@@ -229,7 +229,7 @@
       "hours": "08:00 do 22:00 (Pon-Pt),09:00 do 22:00 (Sb-Nd)",
       "name": "Glonojad",
       "address": "Pl. Matejki 2, Kleparz, Kraków",
-      "img": "../images/",
+      "img": "../images/black-bean-close-up-cooked-1640774.jpg",
       "extras":"Śniadania"
     },
     {
@@ -241,7 +241,7 @@
       "hours": "12:00 do 23:00 (Pon-Nd)",
       "name": "Miód Malina",
       "address": "Grodzka 40, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/blow-cheese-cuisine-723031.jpg"
     },
     {
       "id": 22,
@@ -252,7 +252,7 @@
       "hours": "09:00 do 24:00 (Pon, Wt, Śr, Czw, Nd), 09:00 do 02:00 (Pt-So)",
       "name": "Nova Loft",
       "address": "Estery 18, Kazimierz, Kraków",
-      "img": "../images/",
+      "img": "../images/blur-chef-cooking-2403392.jpg",
       "extras":"Śniadania"
     },
     {
@@ -264,7 +264,7 @@
       "hours": "12:00 do 23:00 (Pon, Wt, Śr, Czw, Nd), 12:00 do 24:00 (Pt-So)",
       "name": "Moo Moo Steak & Burger Club",
       "address": "Św. Krzyża 15, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/blur-chocolate-close-up-1352245.jpg"
     },
     {
       "id": 24,
@@ -275,7 +275,7 @@
       "hours": "12:00 do 22:00 (Pon-Nd)",
       "name": "Zayka",
       "address": "Limanowskiego 46, Podgórze, Kraków",
-      "img": "../images/"
+      "img": "../images/blur-close-up-cutlery-370984.jpg"
     },
     {
       "id": 25,
@@ -286,7 +286,7 @@
       "hours": "08:00 do 03:00 (Pon-Nd)",
       "name": "Gospoda Koko",
       "address": "Gołębia 8, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/cheers-drink-hand-544961.jpg"
     },
     {
       "id": 26,
@@ -297,7 +297,7 @@
       "hours": "09:00 do 24:00 (Pon-Nd)",
       "name": "Trattoria Soprano",
       "address": "św. Anny 7, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/adding-adult-apron-1537166.jpg"
     },
     {
       "id": 27,
@@ -308,7 +308,7 @@
       "hours": "10:00 do 23:00 (Pon-Sb),09:00 do 23:00 (Nd)",
       "name": "Barfly",
       "address": "Józefa 15, Kazimierz, Kraków",
-      "img": "../images/"
+      "img": "../images/adult-barbecue-barbeque-1670561.jpg"
     },
     {
       "id": 28,
@@ -319,7 +319,7 @@
       "hours": "12:00 do 22:00 (Pon, Wt, Śr, Nd), 12:00 do 23:00 (Czw-So)",
       "name": "Dobra Kasza Nasza",
       "address": "Rynek Główny 28, Stare Miasto, Krakow",
-      "img": "../images/"
+      "img": "../images/adult-burger-cheese-1251196.jpg"
     },
     {
       "id": 29,
@@ -330,7 +330,7 @@
       "hours": "10:00 do 20:00 (Pon-Pt),12:00 do 20:00 (Sb-Nd)",
       "name": "Poco Loco",
       "address": "Czysta 9, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/adults-chef-cook-2696064.jpg"
     },
     {
       "id": 30,
@@ -341,7 +341,7 @@
       "hours": "10:00 do 02:00 (Pon-Nd)",
       "name": "Endzior",
       "address": "Plac Nowy 4/12, Kazimierz, Kraków",
-      "img": "../images/"
+      "img": "../images/alcohol-architecture-bar-260922.jpg"
     },
     {
       "id": 31,
@@ -352,7 +352,7 @@
       "hours": "11:00 do 20:00 (Pon-Nd)",
       "name": "Argasińscy",
       "address": "św. Jana 5, Stare Miasto, Kraków Krakow",
-      "img": "../images/",
+      "img": "../images/almonds-berries-bread-knife-2113556.jpg",
       "extras":"Desery"
     },
     {
@@ -364,7 +364,7 @@
       "hours": "12:00 do 23:00 (Pon, Wt, Śr, Czw, Nd), 12:00 do 24:00 (Pt-So)",
       "name": "Krowarzywa",
       "address": "Sławkowska 8, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/appetizer-bowl-chili-286283.jpg"
     },
     {
       "id": 33,
@@ -375,7 +375,7 @@
       "hours": "12:00 do 23:00 (Pon, Wt, Śr, Czw, Nd), 12:00 do 24:00 (Pt-So)",
       "name": "Morela",
       "address": "Stolarska 13, Stare Miasto, Kraków 31-043",
-      "img": "../images/"
+      "img": "../images/architecture-ceiling-chairs-262047.jpg"
     },
     {
       "id": 34,
@@ -386,7 +386,7 @@
       "hours": "10:00 do 23:00 (Pon-Nd)",
       "name": "Veganic",
       "address": "Dolnych Młynów 10, Stare Miasto, Kraków\n",
-      "img": "../images/"
+      "img": "../images/asia-carrot-chopsticks-357756.jpg"
     },
     {
       "id": 35,
@@ -397,7 +397,7 @@
       "hours": "10:00 do 24:00 (Pon, Wt, Śr, Czw, Nd), 10:00 do 02:00 (Pt-So)",
       "name": "Frytki Belgijskie",
       "address": "Skwer Judah, św. Wawrzyńca 16, Kazimierz, Krakow",
-      "img": "../images/"
+      "img": "../images/asparagus-barbecue-bbq-675951.jpg"
     },
     {
       "id": 36,
@@ -408,7 +408,7 @@
       "hours": "10:00 do 24:00 (Pon-Nd)",
       "name": "Mleczarnia",
       "address": "Meiselsa 17 i 20, Kazimierz, Kraków",
-      "img": "../images/",
+      "img": "../images/avocado-close-up-cooking-2122280.jpg",
       "extras":"Tanio"
     },
     {
@@ -420,7 +420,7 @@
       "hours": "12:00 do 23:00 (Pon-Nd)",
       "name": "Pod Baranem",
       "address": "św. Gertrudy 21, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/blow-cheese-cuisine-723031.jpg",
       "extras":"Legenda"
     },
     {
@@ -432,7 +432,7 @@
       "hours": "10:30 do 22:30 (Pon-Czw),10:30 do 23:30 (Pt-So), 12:00 do 22:30 (Nd)",
       "name": "Maxi Pizza",
       "address": "Maxi Pizza",
-      "img": "../images/"
+      "img": "../images/baking-cheese-crust-315755.jpg"
     },
     {
       "id": 39,
@@ -443,7 +443,7 @@
       "hours": "12:00 do 22:00 (Pon, Wt, Śr, Czw, Nd), 12:00 do 23:00 (Pt-So)",
       "name": "Pierogarnia Krakowiacy",
       "address": "Szewska 23, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/barbecue-beef-cuisine-1251208.jpg"
     },
     {
       "id": 40,
@@ -454,7 +454,7 @@
       "hours": "10:30 do 24:00 (Pon-Nd)",
       "name": "Da Pietro",
       "address": "Rynek Główny 19, Stare Miasto, Kraków 31-008",
-      "img": "../images/",
+      "img": "../images/basil-cook-cuisine-691114.jpg",
       "extras":"Legenda"
     },
     {
@@ -466,7 +466,7 @@
       "hours": "24 godziny (Pon-Nd)",
       "name": "Przypiecek Krakowski 24h",
       "address": "Sławkowska 32, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/basil-dinner-food-64208.jpg",
       "extras":"Tanio"
     },
     {
@@ -478,7 +478,7 @@
       "hours": "11:00 do 23:00 (Pon-Nd)",
       "name": "Pizzeria Cyklop",
       "address": "Mikołajska 16, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/beef-bowl-cuisine-262897.jpg"
     },
     {
       "id": 43,
@@ -489,7 +489,7 @@
       "hours": "08:00 do 22:00 (Pon-Sb),09:00 do 22:00 (Nd)",
       "name": "Smakołyki",
       "address": "Straszewskiego 28, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/beef-cooking-cuisine-2181151.jpg"
     },
     {
       "id": 44,
@@ -500,7 +500,7 @@
       "hours": "10:00 do 23:00 (Pon),08:00 do 23:00 (Wt, Śr, Czw, Nd), 08:00 do 24:00 (Pt-So)",
       "name": "Alchemia od Kuchni",
       "address": "Estery 5, Kazimierz, Kraków",
-      "img": "../images/"
+      "img": "../images/beef-cooking-cuisine-2313686.jpg"
     },
     {
       "id": 45,
@@ -511,7 +511,7 @@
       "hours": "12:00 do 23:00 (Pon-Nd)",
       "name": "Miodova",
       "address": "Szeroka 3, Kazimierz, Kraków",
-      "img": "../images/"
+      "img": "../images/berries-blueberries-breakfast-2732663.jpg"
     },
     {
       "id": 46,
@@ -522,7 +522,7 @@
       "hours": "11:00 do 22:00 (Pon-Czw),11:00 do 23:00 (Pt-So), 12:00 do 21:00 (Nd)",
       "name": "Antler",
       "address": "Gołębia 10, Stare Miasto, Kraków",
-      "img": "../images/"
+      "img": "../images/black-bean-close-up-cooked-1640774.jpg"
     },
     {
       "id": 47,
@@ -533,7 +533,7 @@
       "hours": "13:00 do 23:00 (Pon-Nd)",
       "name": "Wierzynek",
       "address": "Rynek Główny 16, Stare Miasto, Krakow",
-      "img": "../images/background-chillies-color-1435895.jpg",
+      "img": "../images/adding-adult-apron-1537166.jpg",
       "extras":"Legenda"
     },
     {
@@ -545,7 +545,7 @@
       "hours": "12:00 do 21:00 (Pon-Czw),12:00 do 22:00 (Pt-Nd)",
       "name": "Smaki Gruzji",
       "address": "Dielta 33, Kazimierz, Kraków",
-      "img": "../images/"
+      "img": "../images/blow-cheese-cuisine-723031.jpg"
     },
     {
       "id": 49,
@@ -556,7 +556,7 @@
       "hours": "08:00 do 20:00 (Pon-Pt),09:00 do 20:00 (Sb-Nd)",
       "name": "Mo-ja Café&Bistro",
       "address": "Starowiślna 14, Stare Miasto, Kraków",
-      "img": "../images/",
+      "img": "../images/blur-chef-cooking-2403392.jpg",
       "extras":"Desery"
     },
     {
@@ -568,7 +568,7 @@
       "hours": "11:00 do 22:00 (Pon-Nd)",
       "name": "Farma Burgerownia Roślinna",
       "address": "Wiślna 6, Kraków, Kraków",
-      "img": "../images/",
+      "img": "../images/blur-chocolate-close-up-1352245.jpg",
       "extras":"Tanio"
     }
   ]

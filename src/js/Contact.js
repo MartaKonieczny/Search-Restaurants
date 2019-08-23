@@ -11,7 +11,7 @@ class Contact extends Component {
                 <Header/>
                 <section>
                     <div>
-                        <p>Kontakt</p>
+                        <div className="w-budowie"></div>
                     </div>
                 </section>
                 <Footer/>

@@ -9,8 +9,8 @@ class Searcher extends Component {
     state={
         filterKitchen:"",
         sortPrice:false,
-        filterLocation: false,
-        filterCategory: false
+        filterLocation: "",
+        filterCategory: ""
 
     };
     changeSortPrice = value =>{
@@ -46,8 +46,8 @@ class Searcher extends Component {
             <>
                 <Header/>
                 <section className="display">
-                    <Filter changeSorPrice={this.changeSortPrice} changeFiltKitch={this.changeFilterKitchen} changeSortLocation={this.changeFilterLocation} changeFilterCategory={this.changeFilterCategory}/>
-                    <Results sortPrice={this.state.sortPrice} filterKitchen={this.state.filterKitchen} filterLocation={this.filterLocation} filterCategory={this.state.filterCategory}/>
+                    <div  className="width"><Filter changeSorPrice={this.changeSortPrice} changeFiltKitch={this.changeFilterKitchen} changeSortLocation={this.changeFilterLocation} changeFilterCategory={this.changeFilterCategory}/></div>
+                    <div className="search-results"><Results sortPrice={this.state.sortPrice} filterKitchen={this.state.filterKitchen} filterLocation={this.state.filterLocation} filterCategory={this.state.filterCategory}/></div>
                 </section>
                 <Footer/>
             </>

@@ -1,14 +1,21 @@
 .third {
   height: 430px;
+  height: 1220px;
+  .third-link{
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+    font-size: 2rem;
+  }
 
   .background-slide1 {
-    background-image: url("../images/background-chillies-color-1435895.jpg");
+    background-image: url("../images/bar-city-commerce-1058277.jpg");
     background-repeat: no-repeat;
     align-items: center;
     justify-content: flex-end;
     background-size: cover;
     width: 90%;
-    height: 200px;
+    height: 600px;
 
     p {
       background-color: rgba(255, 255, 255, .7);
@@ -21,12 +28,12 @@
   }
 
   .background-slide2 {
-    background-image: url("../images/background-chillies-color-1435895.jpg");
+    background-image: url("../images/alcohol-architecture-bar-260922.jpg");
     background-repeat: no-repeat;
     align-items: center;
     background-size: cover;
     width: 90%;
-    height: 200px;
+    height: 600px;
 
     p {
       background-color: rgba(255, 255, 255, .7);

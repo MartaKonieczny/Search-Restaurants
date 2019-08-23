@@ -11,7 +11,7 @@ class ForCustomers extends Component {
                 <Header/>
                 <section>
                     <div>
-                        <p>artykuł klie</p>
+                        <div className="w-budowie"></div>
                     </div>
                 </section>
                 <Footer/>

@@ -11,7 +11,7 @@ class ForRestaurants extends Component {
                 <Header/>
                 <section>
                     <div>
-                        <p>artykuł rest</p>
+                        <div className="w-budowie"></div>
                     </div>
                 </section>
                 <Footer/>
